@@ -534,3 +534,72 @@ align-items: center;
 .pie .cookies {
     margin-left: 30px;
 }
+@media only screen and (max-width:991px ) {
+    
+    .menu {
+        padding: 30px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #292933;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header {
+        min-height: 0vh;
+    }
+
+    .headercont {
+        flex-direction: column;
+        padding: 30px 30px 50px 30px;
+        text-align: center;
+    }
+
+    .headertext {
+        width: 100%;
+    }
+
+    .headertext span {
+        font-size: 70px;
+    }
+
+    .headerimg {
+        width: 100%;
+    }
+
+    .headerimg img {
+        width: 100px;
+    }
+
+    .boton {
+        justify-content: center;
+    }
+
+    .btn1 {
+        margin: 0 10px;
+    }
+
+    .menu1{
+        padding: 0 30px 30px 30px;
+    }
+
+    .contgeneral {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
