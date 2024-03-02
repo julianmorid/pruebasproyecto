@@ -419,3 +419,118 @@ align-items: center;
     align-items: center;
     margin-left: 30px;
 }
+.inputemail {
+    width: 40%;
+    height: 45px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding-left: 20px;
+    background-color: #3a3a48;
+    color: #fbfcff;
+}
+
+.inputsubmit {
+    width: 25%;
+    height: 45px;
+    border-radius: 0 20px 20px 0;
+    border: none;
+    outline: none;
+    background-color: #ffb40b;
+    color: #fbfcff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #292933;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fbfcff;
+}
+
+.footertext {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.espacio1 {
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 0px;
+}
+
+.espacio1 a {
+    text-decoration: none;
+    display: block;
+    color: #fbfcff;
+    padding: 10px 0;
+    margin-top: -5px;
+    font-size: 20px;
+    margin-left: 158px;
+}
+.espacio2, .espacio3, .espacio4 {
+    width: 20%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.espacio2 h3,.espacio3 h3,.espacio4 h3 {
+    font-size: 28px;
+    margin: 25px 0;
+    color: #ffb40b;
+}
+
+.espacio1 h3 {
+    font-size: 28px;
+    margin: 25px 0;
+    color: #ffb40b;
+    margin-left: 160px;
+}
+
+.espacio2 a,.espacio3 a,.espacio4 a {
+    text-decoration: none;
+    color: #fbfcff;
+    margin: 5px 0;
+    font-size:20px ;
+}
+
+.pie {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie p {
+    font-size:18px ;
+    margin-top: 115px;
+}
+
+.pie a {
+    text-decoration: none;
+    color: #fbfcff;
+    font-size: 18px;
+}
+
+.pie .aviso {
+    margin-left: 30px;
+}
+
+.pie .cookies {
+    margin-left: 30px;
+}
